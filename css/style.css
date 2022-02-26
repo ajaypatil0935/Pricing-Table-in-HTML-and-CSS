@@ -1,0 +1,131 @@
+body {
+    line-height:1.5 ;
+}
+
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+
+}
+.container {
+    max-width: 1170px;
+    margin: auto;
+}
+ul {
+    list-style: none;
+
+}
+
+
+.pricing {
+    min-height: 100vh;
+    background-color: red;
+    padding: 100px 0;
+    background-color: #292727;
+    --coLor-1:#5b58e8;
+    --coLor-2:#ffc600;
+    --coLor-3:#fc3c7f;
+    --coLor-:#3fb7ef;
+
+
+
+}
+.pricing .pricing-table {
+    background-color: white;
+    width: calc((100% /3) - 30px);
+    margin:0 15px;
+    border-radius: 10px;
+    overflow: hidden;
+
+}
+.row {
+    display: flex;
+    flex-wrap:wrap ;
+}
+.pricing .pricing-table-header{
+    padding: 15px 30px;
+}
+.pricing .style-1  .pricing-table-footer a ,
+.pricing .style-1 .pricing-table-header {
+    background-color: var(--coLor-1);
+}
+.pricing .style-2  .pricing-table-footer a ,
+.pricing .style-2 .pricing-table-header {
+    background-color: var(--coLor-2);
+}
+.pricing .style-3  .pricing-table-footer a ,
+.pricing .style-3 .pricing-table-header {
+    background-color: var(--coLor-3);
+}
+
+
+
+
+
+
+
+
+
+
+.pricing .pricing-table-header h3 {
+    font-size: 30px;
+    color: white;
+    text-transform: capitalize;
+    font-weight: 600;
+    text-align: center;
+}
+.pricing .pricing-table-price{
+    padding: 40px 5px;
+}
+.pricing .monthly-price{
+    display: flex;
+    padding: 0 30px;
+    justify-content: center;
+
+
+}
+.pricing .monthly-price .currency{
+    font-size: 25px;
+    color: #555;
+    font-weight: 700;
+    line-height: 1;
+}
+.pricing .monthly-price .amount{
+    font-size: 85px;
+    color: #5555;
+    font-weight: 700;
+    line-height: 0.8;
+}
+
+.pricing .pricing-table-body{
+    padding: 0 30px;
+}
+.pricing .pricing-table-body ul li {
+    font-weight: 300;
+    color: #7777;
+    margin-bottom: 15px;
+}
+.pricing .pricing-table-body ul li:last-child {
+    margin-bottom: 0;
+}
+
+.pricing .pricing-table-footer{
+    padding: 30px;
+    text-align: center;
+
+}
+.pricing .pricing-table-footer a {
+display: inline-block;
+padding: 12px 35px;
+color: white;
+text-transform: uppercase;
+text-decoration: none;
+border-radius: 15px;
+transition: box-shadow 0.3s ease;
+}
+.pricing .pricing-table-footer a:hover{
+    box-shadow: 0 0 15px rgba(0,0 ,0,0.3 );
+}
